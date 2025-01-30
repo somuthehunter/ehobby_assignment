@@ -1,8 +1,43 @@
-# React + Vite
+Course Website  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Project Overview  
+This project is a fully responsive course website built using React.  
 
-Currently, two official plugins are available:
+Key Features:  
+- Responsive Navbar  
+- Interactive Courses Section  
+- Footer with Links & Contact Info  
+- About Section  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Installation & Setup  
+
+Prerequisites:  
+- Node.js (LTS version recommended)  
+- npm or yarn  
+
+Installation Steps:  
+1. Clone the repository:  
+   git clone (https://github.com/somuthehunter/ehobby_assignment.git) 
+   cd <your-project-folder>  
+
+2. Install dependencies:  
+   npm install  
+   or  
+   yarn install  
+
+3. Start the development server:  
+   npm start  
+   or  
+   yarn start  
+
+The project will be available at http://localhost:3000/  
+
+Dependencies:  
+- framer-motion (^12.0.6)  
+- react (^18.3.1)  
+- react-dom (^18.3.1)  
+- react-icons (^5.4.0)  
+- swiper (^11.2.1)  
+
+Completion Status:  
+Fully completed with a responsive Navbar, interactive Courses section, Footer, and About section.  
