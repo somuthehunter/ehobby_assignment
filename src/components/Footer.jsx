@@ -38,10 +38,10 @@ const Footer = () => {
           </motion.h3>
           <ul className="mt-2">
             <li>
-              <a href="#courses" className="hover:text-blue-500">Courses</a>
+              <a href="#courses" id="courses" className="hover:text-blue-500">Courses</a>
             </li>
             <li>
-              <a href="#about" className="hover:text-blue-500">About</a>
+              <a href="#benefits" id="benefits"className="hover:text-blue-500">About</a>
             </li>
             <li>
               <a href="#contact" className="hover:text-blue-500">Contact</a>

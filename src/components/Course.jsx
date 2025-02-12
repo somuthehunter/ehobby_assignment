@@ -17,7 +17,7 @@ const Course = () => {
         const nextIndex = (currentIndex + 1) % courseCategories.length;
         return courseCategories[nextIndex];
       });
-    }, 5000); // Auto switch category every 5 seconds
+    }, 10000); // Auto switch category every 5 seconds
 
     return () => clearInterval(interval);
   }, []);
@@ -64,11 +64,11 @@ const Course = () => {
         className="mt-6"
       >
         <Swiper
-          modules={[Navigation, Pagination, Autoplay]}
+          modules={[Navigation, Autoplay]}
           slidesPerView={1}
           spaceBetween={10}
           navigation
-          pagination={{ clickable: true }}
+          
           autoplay={{ delay: 3000 }}
           breakpoints={{
             640: { slidesPerView: 1.2, spaceBetween: 15 },

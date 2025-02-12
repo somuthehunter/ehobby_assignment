@@ -3,6 +3,15 @@ import guitar from '../../assets/guitar.png'
 import yoga from '../../assets/yoga.png'
 import math from '../../assets/math.png'
 
+export const NabBarMenu = [
+  { id: 1, title: "Home", path: "/" },
+  { id: 2, title: "About Us", path: "#benefits" },
+  { id: 3, title: "Courses", path: "#courses" },
+  { id: 4, title: "Contact Us", path: "#" },
+];
+
+
+
 export const benefits = [
   {
     id: 1,

@@ -1,13 +1,7 @@
 import React, { useState } from "react";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
 import { motion } from "framer-motion";
-export const NabBarMenu = [
-  { id: 1, title: "Home", path: "/" },
-  { id: 2, title: "About Us", path: "#benefits" },
-  { id: 3, title: "Courses", path: "#courses" },
-  { id: 4, title: "Contact Us", path: "#" },
-];
-
+import {NabBarMenu} from './constant'
 const Navbar = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
